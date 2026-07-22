@@ -3,7 +3,7 @@ import { Download, Image as ImageIcon, Loader2 } from "lucide-react";
 
 // Point this at your deployed backend URL when the frontend is hosted
 // separately (e.g. on Netlify). Leave empty for local dev (same origin).
-const API_BASE = "";
+const API_BASE = "https://download-bot-backend.onrender.com/";
 
 export default function YouTubeDownloader() {
   const [url, setUrl] = useState("");
